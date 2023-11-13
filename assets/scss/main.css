@@ -25,6 +25,10 @@ ul {
   color: #f07b1d;
 }
 
+.menu-home {
+  display: none;
+}
+
 .head2 .menu-full {
   padding: 0 10px;
   margin: 30px 0;
