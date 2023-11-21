@@ -876,6 +876,24 @@ ul {
 .cart-area {
   padding: 0 15px;
 }
+.cart-area .page-menu ul {
+  padding: 8px 15px;
+  margin: 20px 0;
+  background: #fff none repeat scroll 0 0;
+  border-color: #e5e5e5;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px 1px 3px;
+  display: inline-block;
+}
+.cart-area .page-menu ul li a {
+  color: #7e7e7e;
+  font-size: 12px;
+}
+.cart-area .page-menu ul li .ahref-before {
+  color: #74b894;
+  font-size: 12px;
+}
 .cart-area .title h1 {
   margin: 0 0 20px;
   font-size: 19px;
@@ -885,14 +903,100 @@ ul {
 .cart-area .cart-table .table-responsive .table {
   margin: 0 0 16px;
   display: table;
+  caption-side: bottom;
+  border-collapse: collapse;
 }
 .cart-area .cart-table .table-responsive .table thead {
+  border-color: inherit;
   border-style: solid;
-  border-color: #dee2e6;
+  border-width: 0;
+}
+.cart-area .cart-table .table-responsive .table thead tr td {
+  border: 1px solid #7e7e7e;
 }
 .cart-area .cart-table .table-responsive .table tbody {
   vertical-align: inherit;
   border-color: inherit;
   border-style: solid;
   border-width: 0;
+}
+.cart-area .cart-table .table-responsive .table tbody tr td {
+  border: 1px solid #7e7e7e;
+  font-size: 16px;
+  text-align: center;
+  padding: 8px;
+}
+.cart-area .cart-table .table-responsive .table tbody tr td a {
+  font-size: 13px;
+  color: #74b894;
+}
+.cart-area .cart-table .table-responsive .table tbody tr td a img {
+  max-width: 100%;
+}
+.cart-area .cart-table .table-responsive .table tbody tr td .inputgroup {
+  position: relative;
+  width: 100%;
+  max-width: 200px;
+  margin: 0 13px;
+}
+.cart-area .cart-table .table-responsive .table tbody tr td .inputgroup input {
+  width: 100%;
+  position: relative;
+  padding: 4px 12px;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.cart-area .cart-table .table-responsive .table tbody tr td .inputgroup span button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #74b894;
+  border: medium none;
+  height: 34px;
+  width: 44px;
+}
+.cart-area .cart-table .table-responsive .table tbody tr td .inputgroup span button i {
+  color: white;
+  font-size: 12px;
+}
+.cart-area h2 {
+  font-size: 18px;
+  margin: 0 0 15px;
+}
+.cart-area p {
+  font-size: 13px;
+  margin: 0 0 10px;
+  color: #7e7e7e;
+}
+.cart-area .panel-group .accordion .accordion-item .accordion-header {
+  background-color: #74b894;
+  color: white;
+}
+.cart-area .cart-button-table .table {
+  margin: 0 0 16px;
+}
+.cart-area .cart-button-table .table tbody {
+  vertical-align: inherit;
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0;
+}
+.cart-area .cart-button {
+  display: flex;
+  justify-content: space-between;
+}
+.cart-area .cart-button .pull .custom-btn {
+  background-color: #74b894;
+  color: white;
+  padding: 6px 23px;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }/*# sourceMappingURL=main.css.map */
