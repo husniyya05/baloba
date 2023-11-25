@@ -316,6 +316,9 @@
         .position-relative-btn {
           position: relative;
         }
+        .add {
+          @include add-button;
+        }
 
         .imgbox-full {
           margin: 20px 10px;
@@ -530,7 +533,7 @@
 }
 
 .featured {
-  .section-featured {
+  .seller {
     display: flex;
     align-items: center;
     align-content: center;
@@ -540,6 +543,7 @@
         font-size: 24px;
         padding: 0 10px 0 0;
         background-color: white;
+        white-space: nowrap;
       }
     }
 
@@ -550,6 +554,10 @@
     }
 
     .iconbox {
+      display: flex;
+      align-items: center;
+      align-content: center;
+
       i {
         padding: 10px 12px;
         margin: 0 3px;
@@ -685,6 +693,9 @@
     }
 
     .iconbox {
+      display: flex;
+      align-items: center;
+      align-content: center;
       i {
         padding: 10px 12px;
         margin: 0 3px;
@@ -698,10 +709,12 @@
   .seller-product {
     .product-box {
       display: flex;
-
+      padding: 0 0 15px;
+      margin: 0 0 15px;
+      position: relative;
       .imgbox {
         img {
-          width: 100%;
+          width: 50%;
         }
       }
 
@@ -733,6 +746,15 @@
             font-weight: 600;
           }
         }
+      }
+
+      &::after{
+        background: #e5e5e5 none repeat scroll 0 0;
+        content: "";
+        height: 2px;
+        left: 0;
+        position: absolute;
+        width: 100%;
       }
     }
   }
@@ -811,7 +833,7 @@
 }
 
 .ours {
-  padding: 0 0 10px;
+  padding: 0 0 40px;
 
   .seller {
     display: flex;
@@ -823,6 +845,7 @@
         font-size: 24px;
         padding: 0 10px 0 0;
         background-color: white;
+        white-space: nowrap;
       }
     }
 
@@ -833,6 +856,9 @@
     }
 
     .iconbox {
+      display: flex;
+      align-items: center;
+      align-content: center;
       i {
         padding: 10px 12px;
         margin: 0 3px;
@@ -842,6 +868,7 @@
       }
     }
   }
+
 
   .logo-demo {
     display: flex;
@@ -880,6 +907,9 @@
     }
 
     .iconbox {
+      display: flex;
+      align-items: center;
+      align-content: center;
       i {
         padding: 10px 12px;
         margin: 0 3px;
