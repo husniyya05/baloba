@@ -21,7 +21,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-3">
-                        <a href="index.html">
+                        <a class="img-a" href="index.html">
                             <img src="assets/img/logo.webp" alt="">
                         </a>
                     </div>
@@ -84,7 +84,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div class="menu-full d-flex">
+                        <div class="menu-full ">
                             <div class="menu-nav">
                                 <nav>
                                     <ul>
@@ -264,14 +264,28 @@
                                     </ul>
                                 </nav>
                             </div>
-                            <div class="search d-flex justify-content-end">
-                                <input type="text" placeholder="Search">
+                            <div class="search ">
+                                <input  type="text" placeholder="Search">
                                 <button type="button">
                                     <i class="fa-solid fa-magnifying-glass"></i>
-
                                 </button>
                             </div>
                         </div>
+                        <div class="responsive">
+                            <div class="search-responsive d-flex justify-content-end">
+                                <input  type="text" placeholder="Search">
+                                <button  type="button">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </button>
+                            </div>
+                            <div class="menu-responsiv d-flex">
+                                <h6>MENU</h6>
+                                <button  type="button">
+                                    <i class="fa-solid fa-bars"></i>
+                                </button>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -1013,6 +1027,11 @@
                             <img src="assets/img/logodemo.webp" alt="">
                         </div>
                     </div>
+                    <div class="logo-demo-responsive">
+                        <div class="imgbox">
+                            <img src="assets/img/logodemo.webp" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -1125,7 +1144,7 @@
     </section>
     <footer class="footer-top ">
         <div class="container">
-            <div class="row align-items-center">
+            <div class="row d-flex  align-items-center ">
                 <div class="col-md-6">
                     <div class="iconbox d-flex gap-3 align-items-center">
                         <div class="icon-footer-box">
@@ -1242,6 +1261,9 @@
         </div>
 
     </footer>
+    <ul id="yoxlanis-list">
+        
+    </ul>
     <div class="fixed">
         <i class="fa-solid fa-chevron-up"></i>
     </div>
@@ -1249,6 +1271,7 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 
+    <script src="./assets/js/yoxlanis.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();

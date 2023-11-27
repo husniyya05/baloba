@@ -82,6 +82,8 @@
     }
 
     .search {
+      display: flex;
+      justify-content: end;
       input {
         padding: 6px 12px;
         border: none;
@@ -101,6 +103,9 @@
         }
       }
     }
+  }
+  .responsive{
+    display: none;
   }
 }
 
@@ -461,7 +466,8 @@
         color: white;
 
         &::before {
-          content: "";
+          content: "\f002";
+          font-family: "Font Awesome 6 Free";
           background: $footer-menu-border;
           border: 2px solid #75bf97;
           border-radius: 100%;
@@ -1136,10 +1142,13 @@
   }
 }
 
-// .accordion-button {
-//   &:not(.collapsed) {
-//     background-color: red !important;
-//   }
-// }
+.accordion-button {
+  &:not(.collapsed) {
+    background-color: red !important;
+  }
+}
 
 // https://getbootstrap.com/docs/5.0/components/accordion/
+
+
+@import "_responsive.scss";
